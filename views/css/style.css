@@ -1,0 +1,21 @@
+.admin-table {
+    margin: 10px 0px;
+    width: 100%;
+    border: 1px solid #000;
+}
+.admin-table tr {
+    width: 100%;
+}
+.admin-table th {
+    border: 1px solid #000;
+}
+.admin-table td {
+    border: 1px solid #000;
+}
+
+label {
+    width: 100%
+}
+.form-item {
+    width: 100%
+}

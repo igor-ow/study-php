@@ -1,0 +1,13 @@
+CREATE TABLE `orders` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `date` datetime NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `num_table` varchar(255) NOT NULL,
+  `comment` varchar(500) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+INSERT INTO `orders` (`id`, `date`, `name`, `num_table`, `comment`) VALUES
+('1',	'2014-02-10 10:00:00',	'Поросенок Петр',	'5',	'Буду на тракторе'),
+('2',	'2015-05-15 22:00:00',	'Иван Иванов',	'3',	'Стол на 3х'),
+('3',	'2015-10-20 18:00:00',	'Степан',	'2',	'Стол на 4 часа');
